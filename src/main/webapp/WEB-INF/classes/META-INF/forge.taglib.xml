@@ -6,7 +6,7 @@
 
 	<function>
 		<function-name>asList</function-name>
-		<function-class>org.testforge.view.ViewUtils</function-class>
+		<function-class>cz.jtcode.testapp.view.ViewUtils</function-class>
 		<function-signature>
 			java.util.List asList(java.util.Collection)
 		</function-signature>
@@ -14,7 +14,7 @@
     
     <function>
         <function-name>display</function-name>
-        <function-class>org.testforge.view.ViewUtils</function-class>
+        <function-class>cz.jtcode.testapp.view.ViewUtils</function-class>
         <function-signature>
             java.lang.String display(java.lang.Object)
         </function-signature>
