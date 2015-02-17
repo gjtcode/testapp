@@ -75,7 +75,7 @@ public class SpeakerBean implements Serializable
    @Inject
    private Conversation conversation;
 
-   @PersistenceContext(unitName = "testforge-persistence-unit", type = PersistenceContextType.EXTENDED)
+   @PersistenceContext(unitName = "testapp-persistence-unit", type = PersistenceContextType.EXTENDED)
    private EntityManager entityManager;
 
    public String create()

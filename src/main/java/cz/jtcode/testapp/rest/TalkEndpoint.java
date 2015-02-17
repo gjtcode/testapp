@@ -30,7 +30,7 @@ import cz.jtcode.testapp.model.Talk;
 @Path("/talks")
 public class TalkEndpoint
 {
-   @PersistenceContext(unitName = "testforge-persistence-unit")
+   @PersistenceContext(unitName = "testapp-persistence-unit")
    private EntityManager em;
 
    @POST

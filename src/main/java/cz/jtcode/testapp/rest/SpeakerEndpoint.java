@@ -30,7 +30,7 @@ import cz.jtcode.testapp.model.Speaker;
 @Path("/speakers")
 public class SpeakerEndpoint
 {
-   @PersistenceContext(unitName = "testforge-persistence-unit")
+   @PersistenceContext(unitName = "testapp-persistence-unit")
    private EntityManager em;
 
    @POST

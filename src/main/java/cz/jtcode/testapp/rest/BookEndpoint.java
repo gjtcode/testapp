@@ -30,7 +30,7 @@ import cz.jtcode.testapp.model.Book;
 @Path("/books")
 public class BookEndpoint
 {
-   @PersistenceContext(unitName = "testforge-persistence-unit")
+   @PersistenceContext(unitName = "testapp-persistence-unit")
    private EntityManager em;
 
    @POST
